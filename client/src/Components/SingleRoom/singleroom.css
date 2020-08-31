@@ -1,0 +1,45 @@
+.single-room{
+    max-width: 1500px;
+    margin: auto;
+    height: auto;
+    padding : 30px;
+    margin-bottom: 50px;
+}
+
+.single-room-images{
+    margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-row-gap: 2rem;
+grid-column-gap: 50px;
+}
+
+.single-room-images img{
+    max-width: 100%;
+}
+.single-room h2{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.roomInfo ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.roomFeatures{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    margin-top: 50px;
+}
+
+.roomExtras ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(330px,1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+}
+
+

@@ -1,0 +1,29 @@
+.home-room-container{
+    max-width: 1500px;
+    text-align: center;
+    margin: auto;
+    height: auto;
+    padding : 30px;
+    margin-bottom: 50px;
+
+}
+
+.home-room-container .home-room-header{
+    margin: 30px;
+}
+
+.home-room-container .home-room-header h2{
+    font-size: 2.5rem;
+    font-weight: 750;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.home-room-container .home-room-rooms{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 50px 0px 0px auto;
+    padding: 5px;
+}
+

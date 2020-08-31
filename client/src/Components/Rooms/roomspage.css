@@ -1,0 +1,84 @@
+.roomlist-container{
+    max-width: 1500px;
+    margin: auto;
+        margin-top: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+
+}
+
+
+.roomlist-roompage{
+    margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-row-gap: 4rem;
+grid-column-gap: 30px;
+}
+
+.room-filter-container{
+    max-width: 1500px;
+    margin : auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding : 20px;
+    height: auto;
+    text-align: center;
+}
+
+.room-filter-container h2{ 
+    font-size: 2.5rem;
+font-weight: 750;
+letter-spacing: 2px;
+color: #222;
+}
+
+.room-filter{
+    margin-top: 70px;
+}
+
+.filter-container {
+    padding: 5rem 0;
+  }
+  .filter-form {
+    width: 60vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 5rem;
+    grid-column-gap: 2rem;
+  }
+  .form-group {
+    text-transform: capitalize;
+  }
+  .form-group label {
+    display: block;
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 0.5rem;
+  }
+  .form-control {
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+  }
+  .size-inputs {
+    display: flex;
+  }
+  .size-input {
+    width: 40%;
+    padding: 0.2rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+  }
+  .single-extra{
+      text-align: left;
+  }
+
+  .single-extra label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+

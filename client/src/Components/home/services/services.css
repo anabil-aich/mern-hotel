@@ -1,0 +1,70 @@
+.service-container{
+    max-width: 1500px;
+    text-align: center;
+    margin: auto;
+    height: auto;
+    padding : 30px;
+    margin-bottom: 50px;
+}
+
+.service-container .service-header{
+    margin: 30px;
+}
+
+.seperator{
+    width: 15rem;
+    height: 5px;
+    background: #d0b5d2;
+    margin: 0.5rem auto;
+}
+
+
+.service-container .service-header h2{
+    font-size: 2.5rem;
+    font-weight: 750;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.service-container .services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin: 50px 0px 0px auto;
+    padding: 5px;
+}
+
+.service-container .services .service{
+    padding: 10px;
+    height: auto;
+    border-radius: 5px;
+    border : 1px solid #d0b5d24f;
+    }
+
+    .service-container .services .service:hover{
+        box-shadow: 0px 10px 30px 0px rgba(133,66,189,0.1);
+    }
+ 
+.service-container .service-icon{
+    margin: 10px;
+padding: 10px;
+}
+
+
+.service-container .services .service h4{
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 5px;
+}  
+
+.service-container .services .service p{
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 5px;
+}  
+
+
+
+
+

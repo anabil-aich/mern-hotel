@@ -1,0 +1,61 @@
+.nav-bar{
+    position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 9;
+background: #66325b;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+
+}
+
+.nav-header i{ 
+    font-weight: 800;
+    color: #d0b5d2;
+    font-size: 2rem;
+    padding-top: 1px;
+}
+
+.nav-bar .nav-links{
+    list-style: none;
+    display: flex;
+    width : 30%;
+    justify-content: space-around;
+}
+
+.nav-bar .nav-links .active{
+    border-bottom : 3px solid #d0b5d2;
+}
+
+
+.nav-bar .nav-links li{
+    font-size: 1.6rem;
+    color : #d0b5d2;
+    align-items: center;
+    font-weight: 800;
+    padding: 2px;
+    border-bottom : 3px solid transparent;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 40px;
+    height: 5px;
+    background-color: #d0b5d2;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+
+
